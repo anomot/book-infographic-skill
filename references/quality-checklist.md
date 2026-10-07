@@ -23,6 +23,15 @@ Read the rendered PNG as a phone reader. Any failure = veto, rework, re-render.
 - [ ] No clipped text, no overflow, no mojibake at 2x render.
 - [ ] 1080px width; readable at phone scale.
 
+## Multi-image consistency (only in multi-image mode)
+
+- [ ] One shared visual language: same palette, motif, and type scale across all pages.
+- [ ] The overview does only "the thesis + the map"; it is not a shrunken full version of the book.
+- [ ] Every module page names its own question and could stand alone.
+- [ ] Module numbers match between the overview map and the module page headers.
+- [ ] Each page's layout pattern fits that page's information relationship (patterns may differ across pages).
+- [ ] The set reads as one book, not N posters.
+
 ## Brief templates
 
 ### Book Classification
@@ -55,8 +64,18 @@ Read the rendered PNG as a phone reader. Any failure = veto, rework, re-render.
 - Palette (≤3 + paper): …
 - Number anchors: …
 
+### Module Brief (multi-image mode, one per module page)
+
+- Module number / title: …
+- The question this page answers: … (the "why does this page exist" test)
+- 3–5 points in plain language: …
+- One example: …
+- One sentence to walk away with: …
+- Layout pattern for this page: … (why this information relationship)
+
 ### QA Report
 
 - Checklist result: pass / veto (reasons)
+- Multi-image consistency (if applicable): pass / veto (reasons)
 - Rework ordered: …
 - Re-render verified: yes / no
